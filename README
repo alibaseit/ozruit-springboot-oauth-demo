@@ -1,3 +1,5 @@
+TESTING WITH POSTMAN
+
 First  access_token requested by post method to this url
 http://localhost:8080/oauth/token?grant_type=password&username=user&password=user
 
