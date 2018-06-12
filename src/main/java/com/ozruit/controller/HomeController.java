@@ -14,5 +14,10 @@ public class HomeController {
     public String privateZone() {
         return "private zone";
     }
+	
+	@GetMapping(value="/status")
+	public String test() {
+		return "Server is up";
+	}
 
 }
